@@ -1,0 +1,2 @@
+1. Folder ini untuk menyimpan tugas Multimedia
+2. Dalam folder ini buat folder baru dengan format NPM_NAMA_KELAS
