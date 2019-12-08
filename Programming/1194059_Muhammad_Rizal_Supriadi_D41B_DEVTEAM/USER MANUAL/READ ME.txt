@@ -1,0 +1,12 @@
+Website WPU_Movie ini dibuat pada framework laravel
+
+Dibawah adalah langkah untuk menjalankannya:
+1. Copykan folder WPU_Movie pada htdocs.
+2. Jalankan web server apache pada xampp/warm.
+3. Pastikan terhubung ke internet karena ini menggunakan data RESTful API dari data film di seluruh Dunia.
+4. Akses URL dengan 'http://localhost/wpu_movie/public/index.php' atau jika menggunakan php artisan serve akses dengan 'http://127.0.0.1:8000/'.
+5. Setelah berhasil diakses, tulis judul film yang dicari pada kolom search lalu tekan enter atau klik tombol button.
+6. System akan menampilkan film dari data RESTful API tersebut berdasarkan judul.
+7. Seletah tampil, klik button See Detail maka akan menampilkan data lengkap dari film tersebut.
+
+Untuk lengkapnya sudah disertakan gambar stepnya.
