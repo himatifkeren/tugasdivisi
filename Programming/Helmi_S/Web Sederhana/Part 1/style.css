@@ -1,0 +1,83 @@
+body {
+	font: 16px/28px arial, sans-serif;
+	background-color: goldenrod;
+	color: black;
+}
+
+.container {
+	width: 850px;
+	margin: auto;
+	background-color: gainsboro;
+}
+
+.header {
+	padding: 20px;
+	padding-bottom: 5px;
+}
+
+.header .judul {
+	font-size: 40px;
+	font-weight: bold;
+}
+
+.header a {
+	margin-right: 2px;
+}
+
+.header a {
+	text-decoration: none;
+	color: red;
+	padding: 2px;
+}
+
+.header a:hover{
+	background-color: black;
+	color: yellow
+}
+
+.gambar {
+	height: 435px;
+	background-image: url(img/gambar.jpg);
+	background-size: cover;
+	border-top: 5px solid magenta;
+	border-bottom: 5px solid lime;
+}
+
+.content {
+	padding: 20px;
+}
+
+.content h2 {
+	font-size: 28px;
+	font-weight: bold;
+}
+
+.content a {
+	text-decoration: none;
+	color: red;
+	padding: 3px;
+}
+
+.content a:hover {
+	background-color: black;
+	color: yellow;
+}
+
+.content .penulis {
+	font-size: 14px;
+	margin-top: -30px;
+}
+
+.content p {
+	font-size: 15px;
+}
+
+.footer {
+	background-color: maroon;
+	padding: 2px;
+}
+
+.footer .copy {
+	color: gainsboro;
+	text-align: center;
+}

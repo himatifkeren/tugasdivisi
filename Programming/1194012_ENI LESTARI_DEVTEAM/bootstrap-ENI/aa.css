@@ -1,0 +1,10 @@
+.jumbotron {
+	background-image: url(img/1.jpg);
+	background-size: cover;
+	height: 770px;
+}
+.jumbotron .display-4 {
+	color: white;
+	margin-top: 200px;
+	font-size: 100px;
+}

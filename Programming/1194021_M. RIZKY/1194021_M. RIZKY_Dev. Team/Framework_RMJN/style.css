@@ -1,0 +1,38 @@
+body {
+    background-image: url("img/bg2.jpg");
+    background-size: 100%;
+    perspective: 1px;
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+    overflow-y: auto;
+    padding: 0;
+    margin: 0;
+    position: relative;
+}
+
+.navbar {
+    background-color: transparent !important;
+}
+
+.jumbotron {
+    background-color: transparent;
+    display: flex;
+    justify-content: center;
+}
+
+.text-center {
+    color: rgb(207, 197, 57);
+}
+
+.lead {
+    color: rgb(255, 255, 255);
+}
+
+.navbar-toggler {
+    background-color: rgb(255, 217, 0);
+}
+
+.text-center {
+    padding: 15px;
+}

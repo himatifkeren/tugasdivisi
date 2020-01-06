@@ -1,0 +1,118 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css" class="ref">
+    <link rel="stylesheet" href="js/bootstrap.min.js" class="ref">
+    <link rel="stylesheet" href="style3.css" type="text/css">
+
+    <title>RMJN - Now ! ! !</title>
+</head>
+
+<body>
+    <div class="text-white-50">
+        <script>
+            var d = new Date();
+            var weekday = new Array("Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday",
+                "Saturday");
+            var monthname = new Array("January", "February", "March", "April", "May", "June", "July", "August",
+                "September", "October", "November", "December");
+            document.write(weekday[d.getDay()] + ", ");
+            document.write(monthname[d.getMonth()] + " ");
+            document.write(d.getDate() + " ");
+            document.write(d.getFullYear());
+        </script>
+    </div>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container">
+            <a class="navbar-brand text-warning" href="index.html">RMJN</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                    <a class="nav-item active my-2 mr-sm-2" href="isi.html">
+                        <button type="button" class="btn btn-warning">List </button>
+                    </a>
+                    <a class="nav-item my-2 mr-sm-2" href="contact.html">
+                        <button type="button" class="btn btn-warning">Contact</button>
+                    </a>
+                </ul>
+                <form class="form-inline my-2 my-lg-0">
+                    <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                    <button type="button" class="btn btn-warning">Search</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+    <div class="jumbotron jumbotron-fluid">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8">
+                    <div class="text-warning">
+                        <h2>Contact Person</h2>
+                    </div>
+                    <br>
+                    <div class="text-warning">
+                        <form>
+                            <div class="form-row">
+                                <div class="form-group col-md-6">
+                                    <label for="inputEmail4">Name</label>
+                                    <input type="name" class="form-control" id="inputname4" placeholder="Your Name">
+                                </div>
+                            </div>
+                            <div class="form-row">
+                                <div class="form-group col-md-12">
+                                    <label for="inputAddress">Address</label>
+                                    <input type="text" class="form-control" id="inputAddress"
+                                        placeholder="Destination address">
+                                </div>
+                            </div>
+                            <div class="form-row">
+                                <div class="form-group col-md-12">
+                                    <label for="inputAddress2">Address 2</label>
+                                    <input type="text" class="form-control" id="inputAddress2"
+                                        placeholder="Apartment, studio, or floor">
+                                </div>
+                            </div>
+                            <div class="form-row">
+                                <div class="form-group col-md-6">
+                                    <label for="inputCity">City</label>
+                                    <input type="text" class="form-control" id="inputCity">
+                                </div>
+                                <div class="form-group col-md-4">
+                                    <label for="inputState">State</label>
+                                    <select id="inputState" class="form-control">
+                                        <option selected>Choose...</option>
+                                        <option>...</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="form-row">
+                                <div class="form-group col-md-8">
+                                    <div class="mb-3">
+                                        <label for="validationTextarea">Help Box !!!</label>
+                                        <textarea class="form-control is-invalid" id="validationTextarea"
+                                            placeholder="Give me Opinion About my WebSite !" required></textarea>
+                                        <div class="invalid-feedback">
+                                            Please enter a message in the Help Box.
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <button type="submit" class="btn btn-warning">Send</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    <script src="js/jquery-3.3.1.slim.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+</body>
+
+</html>

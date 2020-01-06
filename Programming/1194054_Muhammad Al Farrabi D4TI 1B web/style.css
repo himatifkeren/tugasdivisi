@@ -1,0 +1,20 @@
+.jumbotron {
+	background-image: url(img/lamgini.jpg);
+	background-size: cover;
+	height: 800px
+	
+}
+
+.jumbotron .display-4{
+	color: white;
+	margin-top: 100px;
+}
+
+.jumbotron p {
+	color: white
+}
+
+.jumbotron hr{
+	border-color: white;
+	weight: 100px;
+}

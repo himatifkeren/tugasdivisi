@@ -1,0 +1,122 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css" class="ref">
+    <link rel="stylesheet" href="js/bootstrap.min.js" class="ref">
+    <link rel="stylesheet" href="style3.css" type="text/css">
+
+    <title>RMJN - Now ! ! !</title>
+</head>
+
+<body>
+    <div class="text-white-50">
+        <script>
+            var d = new Date();
+            var weekday = new Array("Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday",
+                "Saturday");
+            var monthname = new Array("January", "February", "March", "April", "May", "June", "July", "August",
+                "September", "October", "November", "December");
+            document.write(weekday[d.getDay()] + ", ");
+            document.write(monthname[d.getMonth()] + " ");
+            document.write(d.getDate() + " ");
+            document.write(d.getFullYear());
+        </script>
+    </div>
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container">
+            <a class="navbar-brand text-warning" href="index.html">RMJN</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                    <a class="nav-item active my-2 mr-sm-2" href="isi.html">
+                        <button type="button" class="btn btn-warning">List </button>
+                    </a>
+                    <a class="nav-item my-2 mr-sm-2" href="contact.html">
+                        <button type="button" class="btn btn-warning">Contact</button>
+                    </a>
+                </ul>
+                <form class="form-inline my-2 my-lg-0">
+                    <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                    <button type="button" class="btn btn-warning">Search</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+    <div class="jumbotron jumbotron-fluid">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8">
+                    <div class="text-warning">
+                        <h2>Buy</h2>
+                    </div>
+                    <br>
+                    <div class="text-warning">
+                        <form>
+                            <div class="form-row">
+                                <div class="form-group col-md-6">
+                                    <label for="inputEmail4">Email</label>
+                                    <input type="email" class="form-control" id="inputEmail4" placeholder="Email">
+                                    <div class="password-invalid-feedback text-danger">
+                                        Please Log In again Before Buy !
+                                    </div>
+                                </div>
+                                <div class="form-group col-md-6">
+                                    <label for="inputPassword4">Password</label>
+                                    <input type="password" class="form-control" id="inputPassword4"
+                                        placeholder="Password">
+
+                                </div>
+
+                            </div>
+                            <div class="form-group">
+                                <label for="inputAddress">Address</label>
+                                <input type="text" class="form-control" id="inputAddress"
+                                    placeholder="I will take the vehicle ">
+                            </div>
+                            <div class="form-group">
+                                <label for="inputAddress2">Time</label>
+                                <input type="text" class="form-control" id="inputAddress2"
+                                    placeholder="1 day, 2 day, or etc">
+                            </div>
+                            <div class="form-row">
+                                <div class="form-group col-md-5">
+                                    <label for="inputCity">City</label>
+                                    <input type="text" class="form-control" id="inputCity">
+                                </div>
+                                <div class="form-group col-md-3">
+                                    <label for="inputState">State</label>
+                                    <select id="inputState" class="form-control">
+                                        <option selected>Choose...</option>
+                                        <option>...</option>
+                                    </select>
+                                </div>
+                                <div class="form-group col-md-4">
+                                    <label for="inputZip">Type Car</label>
+                                    <input type="text" class="form-control" id="inputZip">
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" id="gridCheck">
+                                    <label class="form-check-label" for="gridCheck"> I Agree </label>
+                                </div>
+                            </div>
+                            <button type="submit" class="btn btn-warning">Buy</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="js/jquery-3.3.1.slim.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+</body>
+
+</html>
